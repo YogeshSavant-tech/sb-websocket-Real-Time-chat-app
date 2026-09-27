@@ -243,52 +243,12 @@ mvn -version
 
 ---
 
-## 📥 Clone the Repository
-
-```bash
-git clone https://github.com/YogeshSavant-tech/sb-websocket-Real-Time-chat-app.git
-```
-
-Navigate into the project:
-
-```bash
-cd sb-websocket-Real-Time-chat-app
-```
-
----
-
-## ▶️ Run the Application
-
-### Using IntelliJ IDEA
-
-1. Open the project in IntelliJ IDEA.
-2. Wait for Maven dependencies to download.
-3. Open the main Spring Boot application class.
-4. Run the application.
-5. Open the application in your browser.
-
-### Using Maven
-
-Run:
-
-```bash
-./mvnw spring-boot:run
-```
-
-On Windows:
-
-```bash
-mvnw.cmd spring-boot:run
-```
-
----
-
 ## 🌐 Open the Application
 
 After starting the Spring Boot application, open:
 
 ```text
-http://localhost:8080
+http://localhost:8080/chat
 ```
 
 Open the application in multiple browser tabs/windows to test real-time communication.
@@ -339,21 +299,6 @@ The project uses **Bootstrap 5** to help create a responsive and modern user int
 
 ---
 
-## 🎨 UI Highlights
-
-The application includes:
-
-* Instagram-inspired gradient header
-* Modern chat bubbles
-* Responsive design
-* Smooth hover effects
-* Animated online indicator
-* Interactive Send button
-* Input focus effects
-* Custom scrollbar
-* Mobile-friendly layout
-
----
 
 ## 🧪 Testing the Application
 
@@ -374,14 +319,14 @@ To test the real-time functionality:
 Add your application screenshots here:
 
 ```markdown
-![Chat Application](src/main/resources/static/images/chat-app.png)
+![Chat Application](src/main/resources/static/Screenshots/Preview.png)
 ```
 
 You can also create a dedicated screenshots folder:
 
 ```text
 screenshots/
-├── chat-home.png
+├── Preview.png
 ├── messaging.png
 └── responsive-view.png
 ```
@@ -389,7 +334,7 @@ screenshots/
 Then add them to the README:
 
 ```markdown
-![Chat Application](screenshots/chat-home.png)
+![Chat Application](screenshots/responsive-view.png)
 ```
 
 ---
@@ -415,25 +360,7 @@ The project can be extended with:
 
 ---
 
-## 📚 Useful Documentation
 
-### Spring Boot & Maven
-
-* [Apache Maven Documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin](https://docs.spring.io/spring-boot/4.0.8/maven-plugin)
-* [Spring Web](https://docs.spring.io/spring-boot/4.0.8/reference/web/servlet.html)
-* [Spring WebSocket](https://docs.spring.io/spring-boot/4.0.8/reference/messaging/websockets.html)
-* [Thymeleaf](https://docs.spring.io/spring-boot/4.0.8/reference/web/servlet.html#web.servlet.spring-mvc.template-engines)
-
-### Spring Guides
-
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST Services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Using WebSocket to Build an Interactive Web Application](https://spring.io/guides/gs/messaging-stomp-websocket/)
-* [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
-
----
 
 ## 🎯 Learning Outcomes
 
@@ -448,34 +375,6 @@ Through this project, you can learn:
 * How to integrate JavaScript with Spring Boot
 * How to use Maven for dependency management
 * How to build a real-time web application
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository.
-2. Create a new branch:
-
-```bash
-git checkout -b feature/new-feature
-```
-
-3. Make your changes.
-4. Commit your changes:
-
-```bash
-git commit -m "Add new feature"
-```
-
-5. Push the branch:
-
-```bash
-git push origin feature/new-feature
-```
-
-6. Open a Pull Request.
 
 ---
 
