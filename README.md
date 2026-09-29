@@ -218,31 +218,6 @@ sb-websocket-Real-Time-chat-app/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-Before running the project, make sure you have installed:
-
-* Java JDK
-* IntelliJ IDEA
-* Apache Maven
-* Git
-
-Check Java:
-
-```bash
-java -version
-```
-
-Check Maven:
-
-```bash
-mvn -version
-```
-
----
-
 ## 🌐 Open the Application
 
 After starting the Spring Boot application, open:
@@ -299,45 +274,6 @@ The project uses **Bootstrap 5** to help create a responsive and modern user int
 
 ---
 
-
-## 🧪 Testing the Application
-
-To test the real-time functionality:
-
-1. Start the Spring Boot application.
-2. Open the application in **Browser Tab 1**.
-3. Open the same application in **Browser Tab 2**.
-4. Enter different usernames.
-5. Send a message from Tab 1.
-6. Check Tab 2.
-7. The message should appear instantly.
-
----
-
-## 📸 Screenshots
-
-Add your application screenshots here:
-
-```markdown
-![Chat Application](src/main/resources/static/Screenshots/Preview.png)
-```
-
-You can also create a dedicated screenshots folder:
-
-```text
-screenshots/
-├── Preview.png
-├── messaging.png
-└── responsive-view.png
-```
-
-Then add them to the README:
-
-```markdown
-![Chat Application](screenshots/responsive-view.png)
-```
-
----
 
 ## 🔮 Future Improvements
 
